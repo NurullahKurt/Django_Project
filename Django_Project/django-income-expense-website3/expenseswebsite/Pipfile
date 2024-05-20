@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+psycopg2 = "*"
+pipenv = "*"
+gunicorn = "*"
+django-heroku = "*"
+waitress = "*"
+"psycopg2.binary" = "*"
+psycopg2-binary = "*"
+heroku = "*"
+urwid = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
